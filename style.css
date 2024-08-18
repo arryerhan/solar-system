@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background-image: linear-gradient(to right,gray,black);
+    padding: 0 !important;
+}
+
+.navbar-brand img{
+    height: 60px;
+    padding-left: 50px;
+}
+
+.navbar-nav{
+    float: right;
+}
+
+.navbar-nav .nav-link{
+    font-weight:bold;
+    transition: all .5s;
+}
+
+.navbar-nav .nav-link:hover{
+    color:#2171f2 !important;
+  }
+
+.fa-bars{ 
+    color:#fff;
+    font-size: 30px;
+}
+
+#banner, #rocky-planets, #gas-giants{
+    background-image: linear-gradient(to right,gray,black);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.container .row{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title{
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.title::before{
+    content:"";
+    background-color:gray;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(57px);
+}
+
+.title::after{
+    content:"";
+    background-color:black;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(8px);
+}
+
+.play-btn{
+    width: 50px;
+    margin: 10px;
+}
+
+.play-btn-info{
+   color: #fff;
+   margin-bottom: 80px;
+}
+
+.play-btn-info:hover{
+    color: #2171f2;
+    cursor: pointer;
+ }
+
+.bottom-img{
+    width:100%;
+    margin-top: 100px;
+}
+
+.banner-img{
+    width:80%;
+}
+
+#planets{
+    padding: 80px 0px;
+}
+
+#planets h4{
+    padding:5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.planet-img{
+    width:50%;
+}
+
+.saturn-img{
+    width:90%;
+}
+
+#btn-wrapper{
+  text-align:center;
+  margin-top: 25px;
+}
+
+.btn-primary{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    padding: 8px 25px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,gray,black);
+    width:auto;
+}
+
+#discover h4{
+    padding:5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about{
+    padding-top:50px;
+    padding-bottom:55px;
+    background-color: #f8f9faed;
+}
+
+.about-img{
+    width:100%;
+    margin: 15%;
+}
+
+.about-title{
+    text-align: left;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 10%;
+}
+
+#about ul li{
+    margin:10px 0px;
+}
+
+#about ul{
+    text-align: left;
+    margin-left: 20px;
+}
+
+#astronauts{
+    margin: 50px 0;
+}
+
+.astronauts{
+    margin-top: 30px;
+    border-left: 5px solid black;
+}
+
+#astronauts img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.astronaut-details{
+    display: inline-block;
+    font-size: 12px;
+}
+
+#social-media{
+    background-color: #f8f9faed;
+    padding: 100px 0;
+}
+
+.social-icons a{
+    text-decoration: none;
+}
+
+.social-icons img{
+    width: 60px;
+    transition:all 0.5s;
+}
+
+.social-icons a:hover > img{
+    transform: translateY(-10px);
+}
+
+#footer{
+    background-image: linear-gradient(to right,gray,black);
+    color: #fff;
+}
+
+#footer .row{
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-img{
+    width: 100%;
+}
+
+.footer-box{
+    padding: 50px;
+}
+
+.footer-box img{
+    width: 130px;
+    margin-bottom: 20px;
+}
+
+.footer-box .icons{
+    margin-right:8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    background-image: linear-gradient(to right,gray,black);
+    text-align: center;
+    padding-top: 7px;
+}
+
+.footer-box .form-control{
+    width: 250px;
+    margin-top: 25px;
+}
+
+.footer-box button{
+    margin-top: 20px;
+}
+
+hr{
+    color: #fff;
+}
+
+.copyright{
+    text-align: center;
+    padding-bottom: 20px;
+}
